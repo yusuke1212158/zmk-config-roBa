@@ -89,7 +89,7 @@
             bindings = <
 &kp AT_SIGN       &kp HASH           &kp SLASH      &kp QUESTION     &kp UNDERSCORE                                                     &kp CARET     &kp AMPERSAND  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4     &kp NUMBER_5    &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE        &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp EXCLAMATION  &kp LT          &kp GT                       &kp RG(T)             &kp RG(W)     &kp RG(TAB)    &kp RG(A)     &kp RG(R)             &kp RG(F)
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp EXCLAMATION  &kp LT          &kp GT                       &kp RG(W)             &kp RG(T)     &kp RG(TAB)    &kp RG(A)     &kp RG(R)             &kp RG(F)
 &trans            &trans             &trans         &trans           &trans          &trans                       &kp RG(LEFT_BRACKET)  &kp RG(RBKT)                                                     &trans
             >;
         };

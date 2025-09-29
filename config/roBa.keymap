@@ -42,7 +42,7 @@
         };
 
         scroll {
-            bindings = <&to 5>;
+            bindings = <&mo 5>;
             key-positions = <31 32>;
         };
     };

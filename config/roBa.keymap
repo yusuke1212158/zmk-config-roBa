@@ -83,27 +83,27 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp EXCLAMATION           &kp AT_SIGN               &kp HASH           &kp DLLR         &kp PERCENT                      &kp CARET         &kp AMPERSAND      &kp ASTRK      &kp LPAR   &kp RIGHT_PARENTHESIS
+&kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_MAXIMUM  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans       &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp MINUS  &kp EQUAL
+&kp PRINTSCREEN           &trans                    &trans             &trans           &trans       &trans      &trans  &kp COLON         &kp DOUBLE_QUOTES  &kp COMMA      &kp DOT    &kp SLASH
+&trans                    &trans                    &trans             &trans           &trans       &trans      &trans  &trans                                                         &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp AT_SIGN       &kp HASH           &kp SLASH      &kp QUESTION     &kp UNDERSCORE                                                     &kp CARET     &kp AMPERSAND  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4     &kp NUMBER_5    &kp LC(LA(KP_NUMBER_0))      &trans                &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp EXCLAMATION  &kp LT          &kp GT                       &trans                &kp RG(W)     &kp RG(T)      &kp RG(TAB)   &kp RG(R)             &kp RG(F)
-&trans            &trans             &trans         &trans           &trans          &trans                       &kp RG(LEFT_BRACKET)  &kp RG(RBKT)                                                     &trans
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                          &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans      &trans                &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F11       &kp F12       &kp F13       &kp F14       &kp F15       &trans      &trans                &kp RG(W)     &kp RG(T)     &kp RG(TAB)   &kp RG(R)     &kp RG(F)
+&trans        &trans        &trans        &trans        &trans        &trans      &kp RG(LEFT_BRACKET)  &kp RG(RBKT)                                            &trans
             >;
         };
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans     &trans              &msc SCRL_DOWN  &trans               &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(A)  &msc SCRL_RIGHT     &msc SCRL_UP    &msc SCRL_LEFT       &kp RC(E)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp RG(LEFT_ARROW)  &trans          &kp RG(RIGHT_ARROW)  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans     &trans              &kp UP_ARROW    &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(A)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp RC(E)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RG(A)  &kp RG(LEFT_ARROW)  &trans          &kp RG(RIGHT_ARROW)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                              &trans
             >;
 
